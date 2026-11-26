@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <h2 id="greeting">Hello!</h2>
+    <h1>Kiprop Joshua</h1>
+    <p>Computer Science student at university</p>
+    <button id="theme-toggle">🌙 Dark mode</button>
+  </header>
+  
+  <section>
+    <h2>About me</h2>
+    <p>I love building websites that are simple and useful.</p>
+    <div id="more" class="hidden">
+      <p>I'm from Jinja. In my free time I play football and teach my younger brothers to code.</p>
+    </div>
+    <button id="more-btn">Read more</button>
+  </section>
+  
+  <section>
+    <h2>My skills</h2>
+    <ul id="skills"></ul>
+  </section>
+  
+  <section>
+    <h2>Contact me</h2>
+    <form id="contact">
+      <label>Your name <input id="contact-name"></label>
+      <label>Message <textarea id="contact-message" rows="3"></textarea></label>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-msg"></p>
+  </section>
+</body>
+</html>

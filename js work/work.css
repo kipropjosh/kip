@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 16px; line-height: 1.6; color: #1d2433; background: #ffffff; transition: background .3s, color .3s; }
+.hero { background: #e8f0fa; border-radius: 14px; padding: 18px 22px; margin-bottom: 18px; }
+.hero h1 { margin: 0; }
+.hero h2 { margin: 0; font-size: 18px; color: #2f6db5; }
+section { margin-bottom: 22px; }
+button { padding: 8px 14px; border: 0; border-radius: 8px; background: #2f6db5; color: #fff; font-size: 15px; cursor: pointer; }
+label { display: block; margin: 8px 0; }
+input, textarea { display: block; width: 100%; box-sizing: border-box; padding: 8px; border: 1px solid #c8cfda; border-radius: 8px; font: inherit; }
+#skills li { display: inline-block; background: #fff3b0; padding: 4px 12px; border-radius: 99px; margin: 4px; }
+.hidden { display: none; }
+
+/* Dark mode */
+body.dark { background: #161b26; color: #eef1f6; }
+body.dark .hero { background: #24304a; }
+body.dark .hero h2 { color: #f5c518; }
+body.dark input, body.dark textarea { background: #24304a; color: #fff; border-color: #3b4866; }
